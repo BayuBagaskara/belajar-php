@@ -15,7 +15,7 @@
    print_r($explode); // menjadi bentuk array dari string tunggal
    echo "\n";
    $stringTunggal = "html-css-javascript-php";
-   $explode = explode(",", $stringTunggal);
+   $explode = explode("-", $stringTunggal);
    print_r($explode);
     ?>
 </body>
