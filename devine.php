@@ -12,6 +12,22 @@
     <?php
   define("fungsi", "ini adalah cetakan hasil fungsi dari const dari fungsi");
   echo fungsi;
+
+  echo "<br>";
+
+  // define const array
+  // php = array 
+  define("arraykelas",["kelas x", "kelas xi", "kelas xii"]);
+  echo "saya adalah " . arraykelas;
+
+  echo "<br>";
+  // define const fungsi global
+  define("name", "merupakan contoh global fungsi definisi");
+  function smk()
+  {
+    echo name;
+  }
+
     ?>
 </body>
 
